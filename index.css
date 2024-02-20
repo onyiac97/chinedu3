@@ -1,0 +1,102 @@
+.container {
+  /*width: 400px;*/
+  min-height: 600px;
+  background-color: rgb(196, 229, 236);
+  padding: 25px;
+  width: 80%;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+#img {
+  margin: 0 45% 
+}
+
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 100px;
+  line: height 80px;
+  color: rgb(0, 135, 162);
+  margin: 0 30%;
+
+}
+
+.header span {
+  color: black;
+
+}
+
+.bg {
+  height: 500px;
+  margin: top 20px;
+  width: 100%;
+  margin-top: -20px;
+}
+
+.inside {
+  background-color: rgb(0, 135, 162);
+  color: whitesmoke;
+  width: 400px;
+  min-height: 100px;
+  text-align: center;
+  margin-top: -60px;
+  margin-left: -20px;
+  position: relative;
+  font-size: 20px;
+  padding-top: 3px;
+
+}
+.inside hi {
+  margin-top: 20px;
+}
+
+.inside h1 {
+  padding-top: 20px;
+}
+/*ul*/
+ul {
+  padding-left: 70px;
+  font-size: 20px;
+  font-family: bolder;
+}
+
+li {
+  padding: 10px 0;
+}
+
+/*hr line*/
+.hr-lines {
+  position: relative;
+  max-width: 900px;
+  margin: 0 50%
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.hr-lines:before {
+content: normal;
+display: block;
+height: 2px;
+width: 300px;
+position: absolute;
+top: 100%;
+left: 0;
+background: black;
+margin: 0 45%;
+text-align: center;
+}
+
+.hr-lines:after {
+  height: 2px;
+  width: 300px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 500%;
+  right: 0;
+  margin: 0 45%;
+}
